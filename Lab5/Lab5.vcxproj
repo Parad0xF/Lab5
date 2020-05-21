@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sets.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{04640FC6-E6B5-41CB-842C-B5CA82225863}</ProjectGuid>
@@ -137,13 +144,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Lab_1\sets\sets\main.cpp" />
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Lab_1\sets\sets\sets.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\OneDrive\Desktop\Lab_1\sets\sets\sets.hpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Lab_1\sets\sets\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\Lab_1\sets\sets\sets.cpp">
+    <ClCompile Include="sets.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\OneDrive\Desktop\Lab_1\sets\sets\sets.hpp">
+    <ClInclude Include="sets.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,49 @@
+
+//
+//  sets.cpp
+//  sets.hpp
+//  main.cpp
+//
+//  Created by Parad0xFF on 05/21/20.
+//  Copyright © 2020 Baron. All rights reserved.
+
+
+/*
+ Lab 1
+ CSIS 125
+
+ Set
+
+ -vector<int> set;
+
+ +Set();
+ +void addElement(int);
+ +int getElement(int) const;
+ +int getSize() const;
+ +bool isSubset(Set);
+ +bool isProper(Set);
+ +void printOrderedPairs(Set) const;
+ +std::vector<int> unionOps(Sets&);
+ +std::vector<int> intersecTion(Sets&);
+ +void printSet() const;
+*/
+
+
+Last Modification
+
+{Function isSubset}
+
+//if(std::find(B.set.begin(), B.set.end(), set[i]) != B.set.end()){}
+else
+    flag = false;
+
+    This part of the function checks whether the elemetnt of Set A {set[i]} exists in Set B
+
+{Function isProper}
+
+//if(the_result_of)
+    if(set.size() < B.set.size()){
+        return true;
+    }
+
+    This part of the function checks if isSubset function is true then procceds to another validation see if the set B has more element in it otherwise is flase.
